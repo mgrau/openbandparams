@@ -21,22 +21,19 @@
 from setuptools import setup, find_packages
 
 # read in __version__
-exec(open('src/openbandparams/version.py').read())
+exec(open("src/openbandparams/version.py").read())
 
 setup(
-      name='openbandparams',
-      version=__version__,  # read from version.py
-      description='open source semiconductor band parameters',
-      long_description=open('doc/PYPI_DESCRIPTION.rst').read(),
-      url='http://scott-maddox.github.io/openbandparams',
-      author='Scott J. Maddox',
-      author_email='smaddox@utexas.edu',
-      license='AGPLv3',
-      packages=['openbandparams',
-                'openbandparams.tests',
-                'openbandparams.examples'],
-      package_dir={'openbandparams': 'src/openbandparams'},
-      test_suite='openbandparams.tests',
-      zip_safe=True,
-      use_2to3=True,
-      )
+    name="openbandparams",
+    version=__version__,  # read from version.py
+    description="open source semiconductor band parameters",
+    long_description=open("doc/PYPI_DESCRIPTION.rst").read(),
+    url="http://scott-maddox.github.io/openbandparams",
+    author="Scott J. Maddox",
+    author_email="smaddox@utexas.edu",
+    license="AGPLv3",
+    packages=["openbandparams", "openbandparams.tests", "openbandparams.examples"],
+    package_dir={"openbandparams": "src/openbandparams"},
+    test_suite="openbandparams.tests",
+    zip_safe=True,
+)

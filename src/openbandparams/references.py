@@ -91,7 +91,7 @@ drube_1987 = BibtexReference('''
 
 adachi_1987 = BibtexReference('''
 @article{adachi_band_1987,
-    title = {Band gaps and refractive indices of {AlGaAsSb}, {GaInAsSb}, and {InPAsSb}: {Key} properties for a variety of the 2--4-$\mu$m optoelectronic device applications},
+    title = {Band gaps and refractive indices of {AlGaAsSb}, {GaInAsSb}, and {InPAsSb}: {Key} properties for a variety of the 2--4-$\\mu$m optoelectronic device applications},
     volume = {61},
     issn = {00218979},
     shorttitle = {Band gaps and refractive indices of {AlGaAsSb}, {GaInAsSb}, and {InPAsSb}},
